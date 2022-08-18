@@ -1,1 +1,48 @@
-dsadas
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --black: #000000;
+    --white: #FFFFFF;
+    --bcg-color: #2F303A;
+}
+/* Цвет заголовков */
+h2, h3 {
+    color: var(--title-text-color);
+}
+/* Цвет текста */
+p {
+    color: var(--primary-text-color);
+}
+/* Логотип */
+.logo {
+    color: var(--black)
+}
+.logopart {
+    color: var(--accent-color);
+}
+/* Навигация */
+.navigation .link {
+    color: var(--title-text-color);
+    }
+.navigation .link:hover,
+.navigation .link:focus {
+    color: var(--accent-color);
+    }
+.hero .title {  
+    color: var(--white);
+    background-color: var(--bcg-color);
+}
+.hero .link {   
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+/* Футер */
+.footer-navigation .address {
+    color: var(--white);
+    background-color: var(--bcg-color);
+}
+.footer-navigation .link {
+    color: var(--white);
+    background-color: var(--bcg-color);
+}
